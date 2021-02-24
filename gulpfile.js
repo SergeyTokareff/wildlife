@@ -45,7 +45,7 @@ task('styles', () => {
             cascade: false
         }))
         .pipe(cleanCSS())
-        .pipe(dest(`${DIST_PATH}/css`))
+        .pipe(dest(`${DIST_PATH}/styles`))
         .pipe(reload({ stream: true }));
 });
 
