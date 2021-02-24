@@ -1,4 +1,45 @@
 .survival {
-    background: url('../../img/header-bg.jpg');
-    
+  display: flex;
+  padding-top: rem(96px);
+  flex-grow: 3;
+}
+
+.survival__content {
+  max-width: rem(274px);
+}
+
+.survival__title {
+  font-size: rem(48px);
+  line-height: rem(72px);
+  letter-spacing: 2px;
+  font-weight: normal;
+  color: $orange-main;
+}
+
+.survival__text {
+  font-size: rem(18px);
+  font-weight: normal;
+  line-height: rem(27px);
+  color: $font-light;
+  margin: rem(50px) 0 rem(66px);
+}
+
+.survival__button {
+  background: $orange-main;
+  font-family: "Roboto", sans-serif;
+  font-size: rem(23px);
+  font-weight: normal;
+  line-height: rem(27px);
+  color: $font-light;
+  padding: rem(16px) rem(44px);
+  border-radius: 5px;
+  outline: none;
+
+  &:hover {
+    background: $orange-light;
+  }
+
+  &:active {
+    background: $orange-dark;
+  }
 }
