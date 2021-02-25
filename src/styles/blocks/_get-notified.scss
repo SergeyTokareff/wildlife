@@ -1,0 +1,66 @@
+.get-notified {
+  background: #cccccc;
+}
+
+.get-notified__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: rem(120px) 0 rem(240px);
+}
+
+.get-notified__title {
+  font-weight: normal;
+  font-size: rem(27px);
+  line-height: rem(40px);
+  color: $font-dark;
+  margin-bottom: rem(60px);
+}
+
+.get-notified__form {
+  height: rem(62px);
+}
+
+.get-notified__email {
+  font-family: "Roboto", sans-serif;
+  font-size: rem(23px);
+  font-weight: normal;
+  line-height: rem(27px);
+  height: 100%;
+  padding: 0 rem(15px);
+  width: rem(540px);
+  background: transparent;
+  border: none;
+  border: 1px solid $font-grey;
+  border-right: none;
+  margin-right: -5px;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+.get-notified__submit {
+  font-family: "Roboto", sans-serif;
+  font-size: rem(23px);
+  font-weight: normal;
+  line-height: rem(27px);
+  padding: 0 rem(36px);
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  color: $font-light;
+  background: $orange-main;
+
+  &:hover {
+    background: $orange-light;
+  }
+
+  &:active,
+  &:focus {
+    background: $orange-dark;
+    outline: none;
+  }
+}

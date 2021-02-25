@@ -35,6 +35,7 @@
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
+  z-index: 1;
 
   &:hover {
     opacity: 0.3;
@@ -51,7 +52,8 @@
 
 .slider__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 7.5%;
 }
 
 .slider__item {
@@ -68,7 +70,6 @@
 
 .squirrel {
   background-image: url("../../img/squirrel.jpg");
-  margin: 0 rem(60px);
 }
 
 .bird {
