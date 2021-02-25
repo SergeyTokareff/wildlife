@@ -40,6 +40,10 @@
   &:active {
     outline: none;
   }
+
+  &:focus::placeholder {
+    color: transparent;
+  }
 }
 
 .get-notified__submit {
@@ -56,6 +60,7 @@
 
   &:hover {
     background: $orange-light;
+    cursor: pointer;
   }
 
   &:active,
